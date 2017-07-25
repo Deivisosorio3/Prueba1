@@ -15,13 +15,11 @@
         app:srcCompat="@drawable/logo"
         android:id="@+id/img_logo" />
 
-    <EditText
-        android:id="@+id/multiline"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-       android:layout_marginTop="190dp"
-        android:inputType="textMultiLine"
-        android:layout_centerHorizontal="true"/>
+   <TextView
+       android:layout_width="120dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="170dp"
+       android:layout_centerHorizontal="true"/>
     <Button
         android:id="@+id/btn_registrarse"
         android:layout_width="150dp"
