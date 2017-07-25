@@ -1,7 +1,9 @@
-package come.example.senasoft.prueba1;
+package come.example.senasoft.prueba1.vista;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import come.example.senasoft.prueba1.R;
 
 public class MainActivity extends AppCompatActivity {
 

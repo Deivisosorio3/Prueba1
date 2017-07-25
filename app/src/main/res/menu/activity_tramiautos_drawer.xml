@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Registro de Autos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Servicios" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Mi Perfil" />
+
+        <item
+            android:id="@+id/nav_acerca_de"
+
+            android:title="Acerca de" />
+
+        <item
+            android:id="@+id/nav_salir"
+
+            android:title="Salir" />
+    </group>
+
+
+
+</menu>
