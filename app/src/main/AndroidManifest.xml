@@ -19,6 +19,10 @@
         <activity
             android:name=".vista.Tramiautos"
             android:label="@string/title_activity_tramiautos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vista.Registro"
+            android:label="@string/title_activity_registro"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
