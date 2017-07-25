@@ -28,7 +28,11 @@
             android:name=".vista.Perfil"
             android:label="@string/title_activity_perfil"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".vista.Acercade"></activity>
+        <activity android:name=".vista.Acercade" />
+        <activity
+            android:name=".vista.Servicios"
+            android:label="@string/title_activity_servicios"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
