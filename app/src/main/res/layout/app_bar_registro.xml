@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="come.example.senasoft.prueba1.vista.Registro">
+    tools:context="come.example.senasoft.prueba1.vista.vista.Registro">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

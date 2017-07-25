@@ -1,5 +1,6 @@
-package come.example.senasoft.prueba1.vista;
+package come.example.senasoft.prueba1.vista.vista;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,13 +14,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Perfil extends AppCompatActivity
+import come.example.senasoft.prueba1.R;
+
+public class Tramiautos extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+        setContentView(R.layout.activity_tramiautos);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -55,7 +58,7 @@ public class Perfil extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.perfil, menu);
+        getMenuInflater().inflate(R.menu.tramiautos, menu);
         return true;
     }
 
@@ -80,22 +83,44 @@ public class Perfil extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
+        if (id == R.id.nav_inicio) {
+            Intent intent=new Intent(Tramiautos.this,MainActivity.class);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.nav_gallery) {
+            Intent intent=new Intent(Tramiautos.this,Registro.class);
+            startActivity(intent);
+            finish();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else {
+            if (id == R.id.nav_slideshow) {
+                Intent intent = new Intent(Tramiautos.this,Servicios.class);
+                startActivity(intent);
+                finish();
 
-        } else if (id == R.id.nav_manage) {
+            } else if (id == R.id.nav_manage) {
+                Intent intent=new Intent(Tramiautos.this,Perfil.class);
+                startActivity(intent);
+                finish();
 
-        } else if (id == R.id.nav_share) {
+            } else if (id == R.id.nav_acerca_de) {
+                Intent intent=new Intent(Tramiautos.this,Acercade.class);
+                startActivity(intent);
+                finish();
 
-        } else if (id == R.id.nav_send) {
+            } else if (id == R.id.nav_salir) {
 
+                finish();
+
+            }
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public  void inicio(View v){
+
+
     }
 }

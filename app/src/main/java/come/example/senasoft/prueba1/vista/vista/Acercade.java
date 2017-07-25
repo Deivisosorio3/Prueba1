@@ -1,4 +1,4 @@
-package come.example.senasoft.prueba1.vista;
+package come.example.senasoft.prueba1.vista.vista;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

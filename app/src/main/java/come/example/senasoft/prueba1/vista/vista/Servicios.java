@@ -1,4 +1,4 @@
-package come.example.senasoft.prueba1.vista;
+package come.example.senasoft.prueba1.vista.vista;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -15,13 +15,13 @@ import android.view.MenuItem;
 
 import come.example.senasoft.prueba1.R;
 
-public class Registro extends AppCompatActivity
+public class Servicios extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registro);
+        setContentView(R.layout.activity_servicios);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,7 +57,7 @@ public class Registro extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.registro, menu);
+        getMenuInflater().inflate(R.menu.servicios, menu);
         return true;
     }
 

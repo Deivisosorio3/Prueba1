@@ -1,4 +1,4 @@
-package come.example.senasoft.prueba1.vista;
+package come.example.senasoft.prueba1.vista.vista;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -15,13 +15,13 @@ import android.view.MenuItem;
 
 import come.example.senasoft.prueba1.R;
 
-public class Tramiautos extends AppCompatActivity
+public class Perfil extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tramiautos);
+        setContentView(R.layout.activity_perfil);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,7 +57,7 @@ public class Tramiautos extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tramiautos, menu);
+        getMenuInflater().inflate(R.menu.perfil, menu);
         return true;
     }
 
